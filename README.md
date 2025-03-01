@@ -5,7 +5,9 @@ This repository implements a **Deep Reinforcement Learning (DRL) Poker Agent** t
 - **Neural Networks (NN) for decision-making**
 - **Monte Carlo Tree Search (MCTS) for simulations**
 - **Self-Play Training to improve strategies**
-- **Integration with an SQL database** for storing and managing game data
+- **Integration with an SQL database** for storing and managing game data using our prior Poker Database (see repo)
+
+The poker agent constructed using Deep RL and MCTS methods in line with a ultr-simplified form of alphaGO, using simplified Texas Hold-em Rules and categorization of game play strategies through our database. 
 
 ## Features
 - **Poker Environment Simulation**: The `PokerEnv` class models a simple poker game with basic betting mechanics.
